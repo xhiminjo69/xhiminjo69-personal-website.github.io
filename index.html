@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Code & Beats</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation"></div>
+
+    <header>
+        <div class="container">
+            <h1>Dimitri Dinero</h1>
+            <p>Junior Web Developer & Techno Enthusiast</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <button onclick="scrollToSection('about')">About Me</button>
+            <button onclick="scrollToSection('skills')">Tech Stack</button>
+            <button onclick="scrollToSection('projects')">Projects</button>
+            <button onclick="scrollToSection('music')">Music</button>
+            <button onclick="scrollToSection('contact')">Contact</button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="about">
+                <div class="profile-picture">
+                    <img src="./download.png" alt="Xhiminjos 24 BD" />
+                </div>
+                <h2>Hello World, Let's Dance!</h2>
+                <p>I'm a junior web developer with a passion for clean code and sick beats. When I'm not crafting responsive websites, you can find me on the dance floor, lost in the rhythm of techno.</p>
+            </section>
+
+            <section id="skills">
+                <h2>My Tech Stack</h2>
+                <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Git</li>
+                    <li>Responsive Design</li>
+                    <li>API Integration</li>
+                    <li>Python 3</li>
+                    <li>SQLite</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Code Compositions</h2>
+                <div class="project-list">
+                    <div class="project">
+                        <h3>BeatSync</h3>
+                        <p>A web app that synchronizes your coding sessions with techno beats, enhancing productivity and rhythm.</p>
+                    </div>
+                    <div class="project">
+                        <h3>FestivalFinder</h3>
+                        <p>An interactive map application that helps users discover techno festivals around the world.</p>
+                    </div>
+                    <div class="project">
+                        <h3>CodeRave</h3>
+                        <p>A collaborative coding platform with a built-in music player, perfect for virtual coding raves.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="music">
+                <h2>Favorite Techno Tracks</h2>
+                <ul class="track-list">
+                    <li>"Strobe" by Deadmau5</li>
+                    <li>"Hypnotized" by Oliver Kolewtski</li>
+                    <li>"All Around" by Solomun</li>
+                    <li>"Flashed" by Enrico Sangiuliano</li>
+                    <li>"Time" by Tale Of Us</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Drop the Bass (Line)</h2>
+                <p>Email: xh.leka@gmail.com</p>
+                <p>GitHub: github.com/xhiminjo69</p>
+                <p>LinkedIn: linkedin.com/in/yourtechnohandle</p>
+                <p>Phone: +3554751727</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dhimitri Leka. Coded with ❤️ and 🎧</p>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
